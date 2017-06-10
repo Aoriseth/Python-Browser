@@ -8,9 +8,6 @@ from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow
 import PyQt5
 PyQt5.QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
-import json
-import urllib.request
-import urllib
 
 app = QApplication(sys.argv)
 
